@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+notallowed := 30000	// use of this operator := is not allowed outside of function or method
+
 func main() {
 	var isequal uint8 = 255 // unsigned integer, containes 0-255 , similiarily we have uint16 , uint32 etc.,
 	fmt.Println(isequal)
@@ -28,6 +30,6 @@ func main() {
 	withoutvar := "variable without var" // no var type declaration
 	fmt.Println(withoutvar)
 
-	novarint := 300000
+	novarint := 300000	// inside any method we're allowed to use this short variable declaration operator
 	fmt.Println(novarint)
 }
