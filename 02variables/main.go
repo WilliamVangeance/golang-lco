@@ -17,4 +17,17 @@ func main() {
 	var anotherstring string
 	fmt.Println(anotherstring) // it returns blank space for strings
 
+	var randomname = "teaovercoffee" // implicit type , here we're not giving the variable type
+	fmt.Println(randomname)
+	fmt.Printf("variable is of type %T \n", randomname)
+
+	var randomfloat = 3.1389
+	fmt.Println(randomfloat)
+	fmt.Printf("variable is of type %T \n", randomfloat)
+
+	withoutvar := "variable without var" // no var type declaration
+	fmt.Println(withoutvar)
+
+	novarint := 300000
+	fmt.Println(novarint)
 }
